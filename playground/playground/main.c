@@ -19,6 +19,8 @@ int main(int argc, const char * argv[]) {
     printf("%f\n", 0.0/0); // nan
     int res = 1/0;
     printf("%d\n", res); // nan
+    printf("%lu\n", sizeof(char));
+    printf("=================\n");
     
     //    int a, b;
     //    scanf("%d%d", &a, &b);
